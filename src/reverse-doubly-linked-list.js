@@ -1,3 +1,7 @@
+//Add a method to Linked List class that reverses it in place.
+//Time Complexity: O(n)
+//Space Complexity: O(1)
+
 class Node {
  constructor(value) {
    this.value = value;
@@ -48,8 +52,6 @@ class LinkedList {
     }
   }
 
-  //Time Complexity: O(n)
-  //Space Complexity: O(1)
   reverse() {
     let current = this.head;
     while (current) {
